@@ -1,0 +1,23 @@
+.mainWrapper {
+    width: 1200px;
+    border: 2px solid #ededed;
+}
+
+.tabsWrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    background-color: #ededed;
+}
+
+.tab {
+    flex: 1;
+    padding: 10px;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.activeTab {
+    background-color: #fff;
+}
